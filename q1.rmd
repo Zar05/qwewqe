@@ -3,23 +3,26 @@
 
 **A.** Draw a scatter diagram of y (blood pressure rise in millimeters of mercury) versus x (sound pressure level in decibels). Does a simple linear regression model seem reasonable in this situation?
 
-—Yes, because the dependent variable y has a visible linear relationship with the independent variable x in the scattered diagram.
+    Yes, because the dependent variable y has a visible linear relationship with the independent variable x in the scattered diagram.
 
 ![**Scattered Diagram**](./ScatteredDiagram.png)
 
 
 **B.** Fit the simple linear regression model using least squares. Find an estimate of σ^2.
 
+    y = 0.17x - 10.13
+
+    The estimated σ^2 is 28.06316. 
+
+
 ![**The Linear Regression Model**](./LinearRegression.png)
 
 
-—The estimated σ^2 is 28.06316. 
-
 **C.** Find the predicted mean rise in blood pressure level associated with a sound pressure level of 85 decibels.
 
-—Using the 
+Using the 
 ![](./lineareq.png)
 
-with β(0) = -10.13 and β(1) = 0.17429
-
-The predicted mean rise in y, blood pressure level, with x, sound pressure level, 85 is 4.68311 ≈ 5.
+    with β(0) = -10.13 and β(1) = 0.17429
+    
+    The predicted mean rise in y, blood pressure level, with x, sound pressure level, 85 is 4.68311 ≈ 5.
